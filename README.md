@@ -3,14 +3,19 @@ SET LOCAL ROLE to another in `$transaction` causes error messages to miss
 
 ## Setup
 
-```bash
-$ yarn
-$ yarn prisma migrate dev
-```
+1. Run
+    ```bash
+    $ yarn
+    $ yarn prisma migrate dev
+    ```
+
+2. `cp .env.sample .env` and fill
 
 ## Run
 
-`yarn dev`
+```bash
+$ yarn dev
+```
 
 Go to:
 
